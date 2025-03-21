@@ -1,8 +1,22 @@
 <?php
 
+/**
+ * @file Mymath.php
+ * @brief Clase Mymath que fa sumes
+ * 
+ * 
+ * @author Frangj66
+ * @date 2025
+ */
+
+
 class Mymath
 {
-
+	/**
+	 * @brief Fa una suma
+	 * 
+	 * @return x + y
+	*/
 	public static function suma ($x, $y) 
 	{
 		return $x + $y;
